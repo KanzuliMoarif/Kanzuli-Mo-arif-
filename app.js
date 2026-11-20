@@ -33,7 +33,7 @@ form.addEventListener('submit', event => {
     alert('Please enter your name and contact number.');
     return;
   }
-  const lines = ["Assalamu alaikum. I would like to register my interest with Kanzuli Mo'arif Islamic Order.", '',
+  const lines = ["Assalamu alaikum. I would like to register my interest with Kanzul Mo'arif Islamic Order.", '',
     'Name: ' + value('name'), 'Contact: ' + value('phone')];
   if (value('email')) lines.push('Email: ' + value('email'));
   lines.push('Enquiring as: ' + value('role'), 'Interest: ' + value('interest'), 'Preferred participation: ' + value('mode'));
